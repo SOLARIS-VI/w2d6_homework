@@ -4,8 +4,10 @@ class Team:
         self.players = players
         self.coach = coach
 
+
     def add_player(self, new_player):
         self.players.append(new_player)
+
 
     def find_player(self, input_player):
         for player in self.players:
@@ -13,3 +15,13 @@ class Team:
                 return True
             
         return False
+
+    
+    # Extensions Attempt
+
+    # def team_has_points(self, input_team_points):
+    #     for points in self.points:
+    #         if (points == input_team_points):
+    #             return True
+
+    #     return False
