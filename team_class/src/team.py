@@ -26,7 +26,7 @@ class Team:
     #         return False
 
     
-    # Extensions Attempt
+    # Extensions Attempt - Not Correct
 
     # def team_has_points(self, input_team_points):
     #     for points in self.points:
