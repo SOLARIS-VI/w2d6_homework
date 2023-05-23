@@ -15,6 +15,15 @@ class Team:
                 return True
             
         return False
+    
+    # Randolph's Solution:
+
+    # def has_player(self, player):
+    #     # return self.players.count(player) > 0
+    #     if (self.players.count(player)> 0):
+    #         return True
+    #     else: 
+    #         return False
 
     
     # Extensions Attempt
